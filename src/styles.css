@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #121212;
+  color: whitesmoke;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.genre {
+  margin-bottom: 3rem;
+}
+.genre > span {
+  background-color: #dcdcdc;
+  margin-right: 2rem;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.movieList {
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  margin: auto;
+  width: 50vw;
+  padding: 1rem;
+  text-align: left;
+}
