@@ -37,15 +37,13 @@ var lstDb = Object.keys(movieDb);
 export default function App() {
   var [movies, setMovies] = useState("Action");
   function showMovies(genre) {
-    console.log(genre);
     setMovies(genre);
-    console.log("hi", movies);
   }
   return (
     <div className="App">
       <header>
         <h1>
-          Moviflix <span role="img">🎬</span>
+          Moviflix <span>🎬</span>
         </h1>
         <br />
         <h3>Explore Movies and TV shows</h3>
